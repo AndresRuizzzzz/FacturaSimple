@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    text-align: right;
+}
+
+#quantityLabel {
+    display: inline-block;
+    width: 80px; /* Ajusta el ancho del label según tus preferencias */
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* Estilos específicos para el input de cantidad */
+#quantityInput {
+    width: 150px; /* Ajusta el ancho del input según tus preferencias */
+}
+
+
+#totalInput {
+    width: 150px;
+}
+
+.add-product-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
